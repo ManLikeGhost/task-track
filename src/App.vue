@@ -26,7 +26,7 @@ export default {
 
   data() {
     return {
-      displayAddTask: false
+      displayAddTask: false,
     } 
   },
 
@@ -35,8 +35,6 @@ export default {
       this.displayAddTask = !this.displayAddTask
     }
   }
-
-
   
 }
 </script>

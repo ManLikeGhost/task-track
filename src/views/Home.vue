@@ -1,8 +1,13 @@
 <template>
-    <div v-show="displayAddTask">
-        <AddTask @add-new-task="addNewTask" />
-    </div>
-    <Tasks @toggle-reminder="toggleReminder" @del-task="delTask" :tasks= "tasks" />
+    <AddTask 
+        v-show="displayAddTask" 
+        @add-new-task="addNewTask" 
+    />
+    <Tasks 
+        @toggle-reminder="toggleReminder" 
+        @del-task="delTask" 
+        :tasks= "tasks" 
+    />
 </template>
 
 <script>
@@ -22,9 +27,9 @@ export default {
   },
 
   data() {
-      return{
+    return{
         tasks: [],
-      }
+    }
   },
 
   methods: {

@@ -35,6 +35,24 @@
       "day": "more stuff",
       "reminder": true,
       "id": "lm59CYG"
+    },
+    {
+      "text": "task",
+      "day": "more",
+      "reminder": true,
+      "id": "t6kaALc"
+    },
+    {
+      "text": "new",
+      "day": "new",
+      "reminder": true,
+      "id": "lkma9md"
+    },
+    {
+      "text": "stuff",
+      "day": "delete",
+      "reminder": false,
+      "id": "rzXc_1z"
     }
   ]
 }
